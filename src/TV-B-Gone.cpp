@@ -116,8 +116,8 @@ void StartTvBGone() {
 
   // determine region
   options = {
-      {"Region NA", [&]() { region = NA; }},
       {"Region EU", [&]() { region = EU; }},
+      {"Region NA", [&]() { region = NA; }},
   };
   delay(200);
   loopOptions(options);
